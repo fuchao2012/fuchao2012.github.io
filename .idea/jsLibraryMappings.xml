@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{docsify}" />
+    <file url="PROJECT" libraries="{disqus, docsify, emoji, prism-bash, prism-typescript, zoom-image}" />
   </component>
 </project>
