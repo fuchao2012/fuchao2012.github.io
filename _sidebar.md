@@ -1,6 +1,7 @@
 * Blogs
 
   * [Update Github Pages](mblog/gengxingithubpages.md)
+  * [Redis Now](mblog/redis.md)
 
 * About
 
