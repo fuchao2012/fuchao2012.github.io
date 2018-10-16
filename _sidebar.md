@@ -1,2 +1,7 @@
-* [日志](mblog/)
-* [关于](about/)
+* Blogs
+
+  * [Update Github Pages](mblog/gengxingithubpages.md)
+
+* About
+
+  * [Yes it's me](about/readme.md)
