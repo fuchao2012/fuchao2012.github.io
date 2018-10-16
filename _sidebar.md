@@ -1,2 +1,2 @@
-* [首页](zh-cn/)
-* [指南](zh-cn/guide)
+* [日志](mblog/)
+* [关于](about/)
