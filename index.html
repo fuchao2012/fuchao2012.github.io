@@ -22,6 +22,7 @@
         repo: 'https://github.com/fuchao2012',
         formatUpdated: '{MM}/{DD} {HH}:{mm}',
         disqus: 'fuchaoblog',
+        homepage: '_sidebar.md',
         search: {
             maxAge: 86400000, // 过期时间，单位毫秒，默认一天
             paths: [], // or 'auto'
@@ -44,6 +45,7 @@
     };
     if (typeof navigator.serviceWorker !== 'undefined') {
         navigator.serviceWorker.register('sw.js')
+            .catch(err => console.error(err))
     }
 </script>
 <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
