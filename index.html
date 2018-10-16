@@ -38,11 +38,10 @@
             // 搜索标题的最大程级, 1 - 6
             depth: 2
         },
-
-        // alias: {
-        //     '/.*/_sidebar.md': '/_sidebar.md' // See #301
-        // }
-    }
+        alias: {
+            '/.*/_sidebar.md': '/_sidebar.md' // See #301
+        }
+    };
     if (typeof navigator.serviceWorker !== 'undefined') {
         navigator.serviceWorker.register('sw.js')
     }
