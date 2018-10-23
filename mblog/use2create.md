@@ -74,3 +74,16 @@ MVC核心封装实现图形仓库、视图渲染和交互控制：
 * tool : 绘画扩展相关实用方法，工具及脚手架
 
 ![zrender.png](https://i.loli.net/2018/10/23/5bce97b41d806.png)
+
+### billboardjs
+
+刚发现的一个开源项目 [billboard.js](https://github.com/naver/billboard.js)也是手撸代码的小哥。
+
+这小哥就单独使用d3来实现绘制，有些勇气的
+
+```json
+ "dependencies": {
+    "d3": "^5.7.0"
+  },
+```
+看了介绍发现有个更有意思的库叫 [c3.js](https://github.com/c3js/c3)相比来说，我觉得这个更靠谱一些，有点c,c++, c#一脉相承的感觉
