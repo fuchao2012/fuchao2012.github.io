@@ -1,14 +1,17 @@
 <component name="ProjectDictionaryState">
   <dictionary name="adminstrator">
     <words>
+      <w>antv</w>
       <w>disqus</w>
       <w>docsify</w>
+      <w>echarts</w>
       <w>emoji</w>
       <w>fuchaoblog</w>
       <w>navbar</w>
       <w>prismjs</w>
       <w>transnet</w>
       <w>unpkg</w>
+      <w>zrender</w>
     </words>
   </dictionary>
 </component>
