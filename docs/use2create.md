@@ -87,3 +87,13 @@ MVC核心封装实现图形仓库、视图渲染和交互控制：
   },
 ```
 看了介绍发现有个更有意思的库叫 [c3.js](https://github.com/c3js/c3)相比来说，我觉得这个更靠谱一些，有点c,c++, c#一脉相承的感觉
+
+### toucharts
+
+一个好的图表应用成功的关键有三个
+
+1. 绚丽的用例
+2. 简明的交互
+3. 简单的使用
+
+[tauCharts](https://github.com/TargetProcess/tauCharts/) 被infoWorld评上了奖，感觉能够火一把
