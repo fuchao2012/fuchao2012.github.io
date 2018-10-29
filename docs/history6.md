@@ -14,4 +14,4 @@
 $ npm i -g @fuchao/history6
 ```
 
-快来尝鲜吐槽吧
+快来尝鲜吐槽吧。
