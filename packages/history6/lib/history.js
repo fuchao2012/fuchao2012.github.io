@@ -17,6 +17,24 @@ const getPath = (opts = {}) => {
     const paths = new Set([
         path.join(os.homedir(), '.bash_history'),
         path.join(os.homedir(), '.zsh_history'),
-        paht.join(os.homedir(), '.history')
+        path.join(os.homedir(), '.history')
     ])
+
+    if (opts.customHistoryPaths) {
+        for (let cpath of opts.customHistoryPaths) {
+            paths.add(cpath)
+        }
+    }
+    return Array.from(paths)
+        .filter(fs.existsSync)
+        .map(fp => ({
+            fp,
+            size: fs.statSync(fp).size
+        }))
+        .reduce((a, b) => a.size > b.size ? a : b).fp
+}
+
+module.exports = (opts = {}) => {
+    if(process.platform === 'win32') return [];
+    return parse(fs.readFileSync(getPath(opts), 'utf8'));
 }
