@@ -7,6 +7,9 @@
   * [先会用再会造](docs/use2create.md)
   * [做一个小工具玩一下](docs/history6.md)
 
+* Books
+  * [机器学习西瓜书](docs/books/watermelon.md)
+
 * About
 
   * [Yes it's me](about/readme.md)
