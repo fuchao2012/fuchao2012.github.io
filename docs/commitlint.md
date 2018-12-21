@@ -1,0 +1,1 @@
+https://marionebl.github.io/commitlint/#/
