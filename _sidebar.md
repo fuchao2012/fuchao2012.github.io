@@ -11,6 +11,8 @@
   * [机器学习西瓜书](docs/books/watermelon.md)
 
 * About
-
   * [Yes it's me](about/readme.md)
+
+* Packages
+  * [周报生成器](packages/reports/index.html)
 
